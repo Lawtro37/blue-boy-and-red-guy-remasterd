@@ -1140,7 +1140,7 @@ function level4f() {
     button2Object = Bodies.rectangle(width / 1.15, height+10, 80, 10, { isStatic: true })
     World.add(world, button2Object)
 
-    wall3 = Bodies.rectangle(width / 3-25, height - 50, 50, 5000, { isStatic: true })
+    wall3 = Bodies.rectangle(width / 4-175, height - 50, 500, 200, 5000, { isStatic: true })
     World.add(world, wall3)
 }
 
